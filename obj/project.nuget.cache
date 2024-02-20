@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "X4cp/l4jM32EpGSDH882AmZmRL6lYInwwUKkjtUaBRYbiKPRd/+ZDSUh80JwQcqGx83J7VQ8e498j3lICbRBVw==",
+  "success": true,
+  "projectFilePath": "C:\\Code\\Assignment_2\\MyErpApp\\MyErp.Application.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\t.vlamis\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

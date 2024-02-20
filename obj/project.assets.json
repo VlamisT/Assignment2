@@ -1,0 +1,182 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0": {
+      "Newtonsoft.Json/13.0.3": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "MyErp.Business/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "MyErp.DAL": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/MyErp.Business.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MyErp.Business.dll": {}
+        }
+      },
+      "MyErp.DAL/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/MyErp.DAL.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MyErp.DAL.dll": {}
+        }
+      },
+      "MyErp.PrintService/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Newtonsoft.Json": "13.0.3"
+        },
+        "compile": {
+          "bin/placeholder/MyErp.PrintService.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MyErp.PrintService.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Newtonsoft.Json/13.0.3": {
+      "sha512": "HrC5BXdl00IP9zeV+0Z848QWPAoCr9P3bDEZguI+gkLcBKAOxix/tLEAAHC+UvDNPv4a2d18lOReHMOagPa+zQ==",
+      "type": "package",
+      "path": "newtonsoft.json/13.0.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.md",
+        "README.md",
+        "lib/net20/Newtonsoft.Json.dll",
+        "lib/net20/Newtonsoft.Json.xml",
+        "lib/net35/Newtonsoft.Json.dll",
+        "lib/net35/Newtonsoft.Json.xml",
+        "lib/net40/Newtonsoft.Json.dll",
+        "lib/net40/Newtonsoft.Json.xml",
+        "lib/net45/Newtonsoft.Json.dll",
+        "lib/net45/Newtonsoft.Json.xml",
+        "lib/net6.0/Newtonsoft.Json.dll",
+        "lib/net6.0/Newtonsoft.Json.xml",
+        "lib/netstandard1.0/Newtonsoft.Json.dll",
+        "lib/netstandard1.0/Newtonsoft.Json.xml",
+        "lib/netstandard1.3/Newtonsoft.Json.dll",
+        "lib/netstandard1.3/Newtonsoft.Json.xml",
+        "lib/netstandard2.0/Newtonsoft.Json.dll",
+        "lib/netstandard2.0/Newtonsoft.Json.xml",
+        "newtonsoft.json.13.0.3.nupkg.sha512",
+        "newtonsoft.json.nuspec",
+        "packageIcon.png"
+      ]
+    },
+    "MyErp.Business/1.0.0": {
+      "type": "project",
+      "path": "../MyErp.Business/MyErp.Business.csproj",
+      "msbuildProject": "../MyErp.Business/MyErp.Business.csproj"
+    },
+    "MyErp.DAL/1.0.0": {
+      "type": "project",
+      "path": "../MyErp.DAL/MyErp.DAL.csproj",
+      "msbuildProject": "../MyErp.DAL/MyErp.DAL.csproj"
+    },
+    "MyErp.PrintService/1.0.0": {
+      "type": "project",
+      "path": "../MyErp.PrintService/MyErp.PrintService.csproj",
+      "msbuildProject": "../MyErp.PrintService/MyErp.PrintService.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0": [
+      "MyErp.Business >= 1.0.0",
+      "MyErp.DAL >= 1.0.0",
+      "MyErp.PrintService >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\t.vlamis\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Code\\Assignment_2\\MyErpApp\\MyErp.Application.csproj",
+      "projectName": "MyErp.Application",
+      "projectPath": "C:\\Code\\Assignment_2\\MyErpApp\\MyErp.Application.csproj",
+      "packagesPath": "C:\\Users\\t.vlamis\\.nuget\\packages\\",
+      "outputPath": "C:\\Code\\Assignment_2\\MyErpApp\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\t.vlamis\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "projectReferences": {
+            "C:\\Code\\Assignment_2\\MyErp.Business\\MyErp.Business.csproj": {
+              "projectPath": "C:\\Code\\Assignment_2\\MyErp.Business\\MyErp.Business.csproj"
+            },
+            "C:\\Code\\Assignment_2\\MyErp.DAL\\MyErp.DAL.csproj": {
+              "projectPath": "C:\\Code\\Assignment_2\\MyErp.DAL\\MyErp.DAL.csproj"
+            },
+            "C:\\Code\\Assignment_2\\MyErp.PrintService\\MyErp.PrintService.csproj": {
+              "projectPath": "C:\\Code\\Assignment_2\\MyErp.PrintService\\MyErp.PrintService.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0": {
+        "targetAlias": "net6.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

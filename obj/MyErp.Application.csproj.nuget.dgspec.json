@@ -1,0 +1,260 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Code\\Assignment_2\\MyErpApp\\MyErp.Application.csproj": {}
+  },
+  "projects": {
+    "C:\\Code\\Assignment_2\\MyErp.Business\\MyErp.Business.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Code\\Assignment_2\\MyErp.Business\\MyErp.Business.csproj",
+        "projectName": "MyErp.Business",
+        "projectPath": "C:\\Code\\Assignment_2\\MyErp.Business\\MyErp.Business.csproj",
+        "packagesPath": "C:\\Users\\t.vlamis\\.nuget\\packages\\",
+        "outputPath": "C:\\Code\\Assignment_2\\MyErp.Business\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\t.vlamis\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Code\\Assignment_2\\MyErp.DAL\\MyErp.DAL.csproj": {
+                "projectPath": "C:\\Code\\Assignment_2\\MyErp.DAL\\MyErp.DAL.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Code\\Assignment_2\\MyErp.DAL\\MyErp.DAL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Code\\Assignment_2\\MyErp.DAL\\MyErp.DAL.csproj",
+        "projectName": "MyErp.DAL",
+        "projectPath": "C:\\Code\\Assignment_2\\MyErp.DAL\\MyErp.DAL.csproj",
+        "packagesPath": "C:\\Users\\t.vlamis\\.nuget\\packages\\",
+        "outputPath": "C:\\Code\\Assignment_2\\MyErp.DAL\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\t.vlamis\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Code\\Assignment_2\\MyErp.PrintService\\MyErp.PrintService.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Code\\Assignment_2\\MyErp.PrintService\\MyErp.PrintService.csproj",
+        "projectName": "MyErp.PrintService",
+        "projectPath": "C:\\Code\\Assignment_2\\MyErp.PrintService\\MyErp.PrintService.csproj",
+        "packagesPath": "C:\\Users\\t.vlamis\\.nuget\\packages\\",
+        "outputPath": "C:\\Code\\Assignment_2\\MyErp.PrintService\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\t.vlamis\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Code\\Assignment_2\\MyErpApp\\MyErp.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Code\\Assignment_2\\MyErpApp\\MyErp.Application.csproj",
+        "projectName": "MyErp.Application",
+        "projectPath": "C:\\Code\\Assignment_2\\MyErpApp\\MyErp.Application.csproj",
+        "packagesPath": "C:\\Users\\t.vlamis\\.nuget\\packages\\",
+        "outputPath": "C:\\Code\\Assignment_2\\MyErpApp\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\t.vlamis\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Code\\Assignment_2\\MyErp.Business\\MyErp.Business.csproj": {
+                "projectPath": "C:\\Code\\Assignment_2\\MyErp.Business\\MyErp.Business.csproj"
+              },
+              "C:\\Code\\Assignment_2\\MyErp.DAL\\MyErp.DAL.csproj": {
+                "projectPath": "C:\\Code\\Assignment_2\\MyErp.DAL\\MyErp.DAL.csproj"
+              },
+              "C:\\Code\\Assignment_2\\MyErp.PrintService\\MyErp.PrintService.csproj": {
+                "projectPath": "C:\\Code\\Assignment_2\\MyErp.PrintService\\MyErp.PrintService.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
